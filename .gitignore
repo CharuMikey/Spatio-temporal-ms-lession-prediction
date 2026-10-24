@@ -1,18 +1,15 @@
-
-# MRI dataset and patient records
+# Raw and processed MRI data / patient records
 dataset/
 processed_data/
 **/Patient-*.npz
 **/*.nii
 **/*.nii.gz
 
-# Model checkpoints
+# Model checkpoints and generated outputs
 checkpoints/
 *.pth
 *.pt
 *.ckpt
-
-# Patient predictions and outputs
 evaluation_results/
 patient_reports/
 GradCAM_reports/
@@ -25,9 +22,13 @@ test_predictions.csv
 per_patient_summary.csv
 xgboost_test_predictions.csv
 
-# Python environment and cache
+# Generated visualization images; review before sharing separately
+gradcam_visualization.png
+prediction_visualization.png
+
+# Python environments and caches
 .venv/
 venv/
 __pycache__/
-*.pyc
+*.py[cod]
 .env
