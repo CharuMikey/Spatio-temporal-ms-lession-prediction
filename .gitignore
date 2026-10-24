@@ -1,0 +1,33 @@
+
+# MRI dataset and patient records
+dataset/
+processed_data/
+**/Patient-*.npz
+**/*.nii
+**/*.nii.gz
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Patient predictions and outputs
+evaluation_results/
+patient_reports/
+GradCAM_reports/
+xgboost_results/
+patient_split.csv
+patient_split_summary.json
+all_patient_predictions.csv
+failed_patients.csv
+test_predictions.csv
+per_patient_summary.csv
+xgboost_test_predictions.csv
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
