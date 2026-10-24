@@ -24,8 +24,8 @@ from sklearn.metrics import (
 from sklearn.utils.class_weight import compute_sample_weight
 from xgboost import XGBClassifier
 
-from model import SpatioTemporalMSModel
-from dataset_loader import MRIDataset
+from src.model import SpatioTemporalMSModel
+from src.dataset_loader import MRIDataset
 
 
 # ============================================================

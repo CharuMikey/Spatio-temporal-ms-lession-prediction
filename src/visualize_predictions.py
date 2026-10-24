@@ -6,8 +6,8 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 
-from dataset_loader import MRIDataset
-from model import SpatioTemporalMSModel
+from src.dataset_loader import MRIDataset
+from src.model import SpatioTemporalMSModel
 
 
 # ---------------- SETTINGS ----------------
